@@ -1,3 +1,8 @@
+'''
+1st File for Project
+The goal for this file is to convert the images and labels into something readible
+by tensorflow (turning into a data file for training)
+'''
 import tensorflow as tf
 
 def create_tf_example(image_path, label):
